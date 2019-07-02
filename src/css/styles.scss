@@ -1,0 +1,118 @@
+
+nav{
+  height:70px;
+  .logo{
+    height:11vh;
+    width:11vw;
+
+  }
+  ul:first-of-type:not(ul>ul){
+    li{
+      margin-left:10px;
+      
+    }
+    
+  }
+  
+}
+.header{
+  .hImg{
+    height:80vh;
+    .img{
+      max-height:100%;
+      max-width:100%;
+    }
+  }
+  
+}
+// .about ul{
+//   margin:0 !important;
+//   padding: 0 !important;
+//   background:red;
+//   li{
+//     margin:0 !important;
+//     padding:0 !important;
+//     a{
+//       margin-left:0 !important;
+//       height:150px;
+//       display:flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+//   }
+//   .col{
+//     margin:0 !important;
+//     padding:0 !important;
+//   }
+// }
+
+.projects{
+  .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+}
+.services{
+  .hexagon{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border:1px solid blue;
+    height:10vh;
+    width:10%;
+  }
+}
+
+  .awards{
+    background-image:url('../images/land.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top:50px;
+    .awards::before{
+      position: absolute;
+      height:100%;
+      width:100%;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      background:rebeccapurple;
+      z-index:5;
+    }
+    .card{
+      background:transparent !important;
+      border:none;
+    }
+    .img{
+      height:40%;
+      width:50%;
+    }
+  }
