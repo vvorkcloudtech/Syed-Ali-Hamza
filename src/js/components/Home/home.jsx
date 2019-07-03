@@ -2,21 +2,23 @@ import React, { Component } from "react";
 import Nav from "../Nav/nav";
 import Header from "../Header/header";
 import About from "../About/about";
-import Projects from "../Projects/project";
+import Investment from "../Investment/Investmment";
 import Services from "../Services/Services";
-import BlogPost from "../BlogPost/BlogPost";
-import Awards from "../Awards//Awards";
+import Clients from "../Clients/Clients";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 class Home extends Component {
   render() {
     return (
     <div>
         <Nav />
-        <Header />
+         <Header />
         <About />
-        <Projects />
         <Services />
-        <BlogPost />
-        <Awards />
+        <Investment />
+        <Clients />
+        <Contact />
+        <Footer />
     </div>
     );
   }
