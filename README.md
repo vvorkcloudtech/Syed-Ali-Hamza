@@ -1,4 +1,4 @@
-### Syed-Ali-Hamza
+# Syed-Ali-Hamza
 independent investors
 
 #What's in This Repository
